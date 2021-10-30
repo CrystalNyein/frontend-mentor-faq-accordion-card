@@ -30,9 +30,13 @@
       .attribution {
         font-size: 11px;
         text-align: center;
+        color: white;
       }
       .attribution a {
-        color: hsl(228, 45%, 44%);
+        color: hsl(226, 30%, 86%);
+      }
+      .attribution a:hover {
+        color: hsl(227, 13%, 78%);
       }
     </style>
   </head>
@@ -40,66 +44,84 @@
     <div role="main" class="main-container">
       <div class="card">
         <img
-          class="d-mobile-none"
-          src="./images/illustration-woman-online-desktop.svg"
-          alt="Women Online"
+          class="d-mobile-none box"
+          src="./images/illustration-box-desktop.svg"
+          alt="Box"
         />
-        <img
-          class="d-desktop-none"
-          src="./images/illustration-woman-online-mobile.svg"
-          alt="Women Online"
-        />
+        <div class="card-img">
+          <img
+            class="d-mobile-none women-desktop"
+            src="./images/illustration-woman-online-desktop.svg"
+            alt="Women Online"
+          />
+          <img
+            class="d-desktop-none women-mobile"
+            src="./images/illustration-woman-online-mobile.svg"
+            alt="Women Online"
+          />
+        </div>
+
         <div class="faq-section">
           <h1>Faq</h1>
-          <div class="accordion">
-            <h3>How many team members can I invite?</h3>
-            <i class="fas fa-chevron-down"></i>
-            <i class="fas fa-chevron-up display-none"></i>
+          <div class="accord-group">
+            <div class="accordion">
+              <h3>How many team members can I invite?</h3>
+              <i class="fas fa-chevron-down"></i>
+              <i class="fas fa-chevron-up display-none"></i>
+            </div>
+            <p class="panel">
+              You can invite up to 2 additional users on the Free plan. There is
+              no limit on team members for the Premium plan.
+            </p>
           </div>
-          <p class="panel">
-            You can invite up to 2 additional users on the Free plan. There is
-            no limit on team members for the Premium plan.
-          </p>
           <hr />
-          <div class="accordion">
-            <h3>What is the maximum file upload size?</h3>
-            <i class="fas fa-chevron-down"></i>
-            <i class="fas fa-chevron-up display-none"></i>
+          <div class="accord-group active">
+            <div class="accordion">
+              <h3>What is the maximum file upload size?</h3>
+              <i class="fas fa-chevron-down"></i>
+              <i class="fas fa-chevron-up display-none"></i>
+            </div>
+            <p class="panel">
+              No more than 2GB. All files in your account must fit your allotted
+              storage space.
+            </p>
           </div>
-          <p class="panel">
-            No more than 2GB. All files in your account must fit your allotted
-            storage space.
-          </p>
           <hr />
-          <div class="accordion">
-            <h3>How do I reset my password?</h3>
-            <i class="fas fa-chevron-down"></i>
-            <i class="fas fa-chevron-up display-none"></i>
+          <div class="accord-group">
+            <div class="accordion">
+              <h3>How do I reset my password?</h3>
+              <i class="fas fa-chevron-down"></i>
+              <i class="fas fa-chevron-up display-none"></i>
+            </div>
+            <p class="panel">
+              Click “Forgot password” from the login page or “Change password”
+              from your profile page. A reset link will be emailed to you.
+            </p>
           </div>
-          <p class="panel">
-            Click “Forgot password” from the login page or “Change password”
-            from your profile page. A reset link will be emailed to you.
-          </p>
           <hr />
-          <div class="accordion">
-            <h3>Can I cancel my subscription?</h3>
-            <i class="fas fa-chevron-down"></i>
-            <i class="fas fa-chevron-up display-none"></i>
+          <div class="accord-group">
+            <div class="accordion">
+              <h3>Can I cancel my subscription?</h3>
+              <i class="fas fa-chevron-down"></i>
+              <i class="fas fa-chevron-up display-none"></i>
+            </div>
+            <p class="panel">
+              Yes! Send us a message and we’ll process your request no questions
+              asked.
+            </p>
           </div>
-          <p class="panel">
-            Yes! Send us a message and we’ll process your request no questions
-            asked.
-          </p>
           <hr />
-          <div class="accordion">
-            <h3>Do you provide additional support?</h3>
-            <i class="fas fa-chevron-down"></i>
-            <i class="fas fa-chevron-up display-none"></i>
+          <div class="accord-group">
+            <div class="accordion">
+              <h3>Do you provide additional support?</h3>
+              <i class="fas fa-chevron-down"></i>
+              <i class="fas fa-chevron-up display-none"></i>
+            </div>
+            <p class="panel">
+              Chat and email support is available 24/7. Phone lines are open
+              during normal business hours.
+            </p>
           </div>
-          <p class="panel">
-            Chat and email support is available 24/7. Phone lines are open
-            during normal business hours.
-          </p>
         </div>
       </div>
     </div>
