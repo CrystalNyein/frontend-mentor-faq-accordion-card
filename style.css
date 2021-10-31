@@ -68,12 +68,14 @@ h1 {
   font-size: 2.2rem;
   text-transform: uppercase;
 }
+.accord-group {
+  cursor: pointer;
+}
 .accordion {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  cursor: pointer;
 }
 .accordion h3 {
   font-weight: 400;
@@ -112,9 +114,13 @@ hr {
   border: none;
 }
 @media only screen and (max-width: 760px) {
+  body {
+    align-content: start;
+    position: relative;
+  }
   .main-container {
     width: 30rem;
-    margin: 6rem auto 2rem;
+    margin: 12rem auto 2rem;
   }
   .card {
     flex-wrap: wrap;
@@ -123,13 +129,13 @@ hr {
   .card-img {
     justify-content: center;
     position: absolute;
-    width: 60%;
+    width: 70%;
     overflow: auto;
     background-image: url("./images/bg-pattern-mobile.svg");
     background-size: contain;
     background-position: bottom;
-    top: -72%;
-    left: 20%;
+    top: -31.5rem;
+    left: 14%;
   }
   .women-mobile {
     width: 100%;
