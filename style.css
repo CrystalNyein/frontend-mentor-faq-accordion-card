@@ -77,20 +77,20 @@ h1 {
   justify-content: space-between;
   align-items: center;
 }
-.accordion h3 {
+.accordion h2 {
   font-weight: 400;
   color: var(--very-dark-grayish-blue);
 }
-.accordion:hover h3 {
+.accordion:hover h2 {
   color: var(--soft-red);
 }
 .accordion i {
   color: var(--soft-red);
 }
-.active h3 {
+.active h2 {
   font-weight: 700;
 }
-.active:hover h3 {
+.active:hover h2 {
   color: var(--very-dark-desaturated-blue);
 }
 .active .fa-chevron-down {
@@ -150,7 +150,7 @@ hr {
   .faq-section h1 {
     text-align: center;
   }
-  .accord-group h3 {
+  .accord-group h2 {
     margin: 0.9rem 0;
   }
   .d-desktop-none {

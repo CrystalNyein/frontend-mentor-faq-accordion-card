@@ -1,7 +1,7 @@
 const accordDisplay = (e) => {
   let parentNode;
   switch (e.target.nodeName) {
-    case "H3":
+    case "H2":
     case "I":
       parentNode = e.target.parentNode.parentNode;
       break;
