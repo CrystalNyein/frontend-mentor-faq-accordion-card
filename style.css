@@ -70,6 +70,11 @@ h1 {
 }
 .accord-group {
   cursor: pointer;
+  min-height: 2.5rem;
+  transition: min-height 0.3s ease-in;
+}
+.accord-group.active {
+  min-height: 6.5rem;
 }
 .accordion {
   display: flex;
@@ -101,13 +106,19 @@ h1 {
   display: block;
 }
 .panel {
-  display: none;
+  opacity: 0;
+  height: 0;
+  pointer-events: none;
   color: var(--dark-grayish-blue);
   line-height: 1.5rem;
   margin-top: 0;
+  transform: translateY(-3rem);
+  transition: opacity 0.3s ease-out, transform 0.3s ease, height 0.3s ease;
 }
 .active p {
-  display: block;
+  height: auto;
+  opacity: 1;
+  transform: translateY(0);
 }
 hr {
   height: 1px;
