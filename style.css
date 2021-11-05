@@ -41,7 +41,7 @@ body {
 }
 .card-img {
   width: 50%;
-  height: 40rem;
+  align-self: stretch;
   background: url("./images/bg-pattern-desktop.svg");
   background-size: 195%;
   background-repeat: no-repeat;
@@ -57,7 +57,8 @@ body {
 }
 .box {
   position: absolute;
-  top: 15.5rem;
+  top: 58%;
+  transform: translateY(-50%);
   left: -130px;
 }
 .faq-section {
@@ -140,6 +141,7 @@ hr {
   }
   .card-img {
     justify-content: center;
+    height: 40rem;
     position: absolute;
     width: 70%;
     overflow: auto;
