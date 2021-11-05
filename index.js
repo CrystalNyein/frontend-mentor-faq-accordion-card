@@ -1,5 +1,4 @@
 const accordDisplay = (e) => {
-  console.log(e.target, e.target.nodeName);
   let parentNode;
   switch (e.target.nodeName) {
     case "H2":
